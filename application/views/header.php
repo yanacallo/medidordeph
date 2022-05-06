@@ -117,9 +117,9 @@
                   <a href="<?php echo site_url('lugares/gestionLugares'); ?>" class="dropdown-item">
                     <i class="fas fa-object-group"></i>&nbsp;&nbsp;Localidad&nbsp;&nbsp;
                   </a>
-                  <a href="<?php echo site_url('terrenos/gestionTerrenos'); ?>" class="dropdown-item">
+                  <!-- <a href="<?php echo site_url('terrenos/gestionTerrenos'); ?>" class="dropdown-item">
                     <i class="fa fa-object-group"></i>&nbsp;&nbsp;Terrenos&nbsp;&nbsp;
-                  </a>
+                  </a> -->
                 </div>
               </div>
 
@@ -138,7 +138,7 @@
                     </a>
                   </div>
                 </div>
-                
+
               <!-- <?php if ($this->session->userdata('Conectad0')) : ?>
                 <div class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">

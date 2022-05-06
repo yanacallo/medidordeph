@@ -11,7 +11,7 @@ class Terreno  extends CI_Model
 
     public function obtenerDatos()
     {
-        $query = $this->db->get('terrenos');
+        $query = $this->db->get('locations');
         if ($query->num_rows() > 0) {
             return $query;
         } else {
@@ -21,19 +21,19 @@ class Terreno  extends CI_Model
 
     public function insertarTerreno($dataTerreno)
     {
-        return $this->db->insert("terrenos", $dataTerreno);
+        return $this->db->insert("locations", $dataTerreno);
     }
 
     public function eliminar($id)
     {
         $this->db->where("id_ter", $id);
-        return $this->db->delete("terrenos");
+        return $this->db->delete("locations");
     }
 
     public function obtenerPorCodigo($id_ter)
     {
         $this->db->where("id_ter", $id_ter);
-        $query = $this->db->get('terrenos');
+        $query = $this->db->get('locations');
         if ($query->num_rows() > 0) {
             return $query->row();
         } else {
@@ -44,6 +44,6 @@ class Terreno  extends CI_Model
     public function actualizar($data, $id_ter)
     {
         $this->db->where("id_ter", $id_ter);
-        return $this->db->update("terrenos", $data);
+        return $this->db->update("locations", $data);
     }
 }

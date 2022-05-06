@@ -21,7 +21,11 @@
 			      <td><?php echo $value['description'] ? $value['description'] : 'No description...';  ?></td>
 			      <td><?php echo $value['lat'] ?></td>
 			      <td><?php echo $value['lng'] ?></td>
-			      <td><a href="<?php echo base_url('index.php/mapsapi/edit/'); echo $value['id']; ?>" class="btn btn-success mr-2"><i class="fa fa-pencil"></i> Editar</a><a href="<?php echo base_url('index.php/mapsapi/delete/'); echo $value['id']; ?>" class="btn btn-danger"><i class="fa fa-trash"></i> Eliminar</a></td>
+			      <td>
+              <a href="<?php echo base_url('index.php/mapsapi/edit/'); echo $value['id']; ?>" class="btn btn-success mr-2"><i class="fa fa-pencil"></i> Visualizar</a>
+              <a href="" class="btn btn-success mr-2"><i class="fa fa-pencil"></i> Editar</a>
+              <a href="<?php echo base_url('index.php/mapsapi/delete/'); echo $value['id']; ?>" class="btn btn-danger"><i class="fa fa-trash"></i> Eliminar</a>
+            </td>
 
 			    </tr>
 <?php endforeach ?>
