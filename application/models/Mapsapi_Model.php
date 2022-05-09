@@ -11,6 +11,16 @@ class Mapsapi_Model extends CI_Model{
 		->result_array();
 	}
 
+	public function get_loc()
+	{
+		return $this->db
+		->select('lat,lng')
+		->from('locations')
+		->get()
+		->result_array();
+		//->row();
+	}
+
 	public function get_a_location($where = array())
 	{
 		return $this->db

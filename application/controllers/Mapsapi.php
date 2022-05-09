@@ -20,6 +20,14 @@ class Mapsapi extends CI_Controller {
 		$this->load->view('locations',$data);
 		$this->load->view('footer');
 	}
+
+	public function loc(){
+		$data['locations'] = $this->Mapsapi_Model->get_loc();
+		//$this->load->view('header');
+		$this->load->view('locations',$data);
+		//$this->load->view('footer');
+	}
+
 	public function insert()
 	{
 		$data = array(

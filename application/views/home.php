@@ -54,6 +54,7 @@
         var map = new google.maps.Map(mapDiv, {
           zoom: <?php if (isset($edit_page_data)) { echo '15'; } else { echo '12';} ?>,
           center: new google.maps.LatLng(<?php if (isset($edit_page_data)) { echo $edit_page_data->lat; } else {echo '-0.7886730785062509';} ?>, <?php if (isset($edit_page_data)) { echo $edit_page_data->lng; } else {echo '-78.63294284749065';} ?>)
+
         });
 
 

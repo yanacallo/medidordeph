@@ -136,6 +136,10 @@
                     <a href="<?php echo site_url('mapsapi/locations'); ?>" class="dropdown-item">
                       <i class="fa fa-object-group"></i>&nbsp;&nbsp;LOCALIZACIONES&nbsp;&nbsp;
                     </a>
+                    <a href="http://localhost/medidordeph/map.php" class="dropdown-item">
+                      <i class="fa fa-object-group"></i>&nbsp;&nbsp;VisualizarMarcadores&nbsp;&nbsp;
+                    </a>
+
                   </div>
                 </div>
 
