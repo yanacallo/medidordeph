@@ -11,6 +11,15 @@ class Mapsapi_Model extends CI_Model{
 		->result_array();
 	}
 
+	public function getTools(){
+		return $this->db
+		->select('*')
+		->from('locations')
+		->order_by('id','desc')
+		->get()
+		->result_array();
+    }
+
 	public function get_loc()
 	{
 		return $this->db

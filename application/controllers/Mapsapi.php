@@ -14,6 +14,13 @@ class Mapsapi extends CI_Controller {
 		$this->load->view('footer');
 	}
 
+	public function tools(){
+		$this->load->view('header');
+		$data['edit_page_data']=$this->Mapsapi_Model->getTools();
+		$this->load->view('tools',$data);
+		$this->load->view('footer');
+	}
+
 	public function locations(){
 		$data['locations'] = $this->Mapsapi_Model->get_locations();
 		$this->load->view('header');
