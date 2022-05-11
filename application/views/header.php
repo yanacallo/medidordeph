@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Medicion de PH</title>
+  <title>Medición de PH</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="Construction Company Website Template" name="keywords">
   <meta content="Construction Company Website Template" name="description">
@@ -111,7 +111,7 @@
 
               <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="medicion">
-                  <i class="fas fa-chart-area"></i>&nbsp;&nbsp;MEDICION&nbsp;&nbsp;
+                  <i class="fas fa-chart-area"></i>&nbsp;&nbsp;MEDICIÓN&nbsp;&nbsp;
                 </a>
                 <div class="dropdown-menu">
                   <a href="<?php echo site_url('lugares/gestionLugares'); ?>" class="dropdown-item">
@@ -127,11 +127,11 @@
 
               <div class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="geolocalizacion">
-                    <i class="fas fa-chart-area"></i>&nbsp;&nbsp;GEOLOCALIZACON&nbsp;&nbsp;
+                    <i class="fas fa-chart-area"></i>&nbsp;&nbsp;GEOLOCALIZACIÓN&nbsp;&nbsp;
                   </a>
                   <div class="dropdown-menu">
                     <a href="<?php echo site_url('mapsapi/index'); ?>" class="dropdown-item">
-                      <i class="fas fa-object-group"></i>&nbsp;&nbsp;OBTENER LOCALIZACION&nbsp;&nbsp;
+                      <i class="fas fa-object-group"></i>&nbsp;&nbsp;OBTENER LOCALIZACIÓN&nbsp;&nbsp;
                     </a>
                     <a href="<?php echo site_url('mapsapi/locations'); ?>" class="dropdown-item">
                       <i class="fa fa-object-group"></i>&nbsp;&nbsp;LOCALIZACIONES&nbsp;&nbsp;

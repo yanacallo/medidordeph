@@ -40,14 +40,14 @@
             </div>
             <div class="col-lg-7 col-md-6">
                 <div class="section-header text-left">
-                    <p>Bienvenidos al Sistema de Medicion de Humedad de la UTC</p>
+                    <p>Bienvenidos al Sistema de Medición de Ph de la UTC</p>
                     <h2>CIYA</h2>
                 </div>
                 <div class="about-text">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi.
-                        Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
-                    </p>
+                    Estimar la calidad de los suelos es importante, puesto que contribuye a establecer la 
+                    sostenibilidad de los diferentes sistemas de manejo. Los suelos con máxima calidad son capaces 
+                    de mantener alta productividad y causar el mínimo deterioro ambiental.                    </p>
                     <a class="btn" href="<?php echo site_url(); ?>/terrenos/gestionTerrenos">Terrenos</a>
                 </div>
             </div>
