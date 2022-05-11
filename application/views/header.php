@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Medición de PH</title>
+  <title>Medicion de PH</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="Construction Company Website Template" name="keywords">
   <meta content="Construction Company Website Template" name="description">
@@ -122,12 +122,8 @@
                   </a> -->
                 </div>
               </div>
-              <a href="<?php echo site_url('reportes/index'); ?>" class="dropdown-item">
-                    <i class="far fa-clipboard"></i>&nbsp;&nbsp;Reporte&nbsp;&nbsp;
-                  </a>
 
-              
-
+              <a href="<?php echo site_url(); ?>/reportes/index" id="reportes" class="nav-item nav-link"><i class="far fa-clipboard"></i>&nbsp;&nbsp;REPORTES&nbsp;&nbsp;</a>
 
               <div class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="geolocalizacion">

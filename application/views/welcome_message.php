@@ -44,7 +44,7 @@
                     <h2>CIYA</h2>
                 </div>
                 <div class="about-text">
-                    <p>
+                    <p style="text-align: justify;">
                     Estimar la calidad de los suelos es importante, puesto que contribuye a establecer la 
                     sostenibilidad de los diferentes sistemas de manejo. Los suelos con máxima calidad son capaces 
                     de mantener alta productividad y causar el mínimo deterioro ambiental.                    </p>
