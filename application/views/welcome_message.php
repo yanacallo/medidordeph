@@ -4,23 +4,16 @@
 
 <!-- Carousel Start -->
 <div id="carousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-    </ol>
+   
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="<?php echo base_url(); ?>/assets/template/img/2.jpg" alt="Carousel Image">
+            <img src="<?php echo base_url(); ?>/assets/template/img/volcan2.jpg" alt="Carousel Image">
         </div>
 
-        <!-- <div class="carousel-item">
-            <img src="<?php echo base_url(); ?>/assets/template/img/2.jpg" alt="Carousel Image">
-        </div> -->
+        <div class="carousel-item">
+            <img src="<?php echo base_url(); ?>/assets/template/img/volcan1.jpg" alt="Carousel Image">
+        </div>
 
-        <!-- <div class="carousel-item">
-            <img src="<?php echo base_url(); ?>/assets/template/img/carousel-3.jpg" alt="Carousel Image">
-        </div> -->
     </div>
 
     <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -42,7 +35,7 @@
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-6">
                 <div class="about-img">
-                    <img src="<?php echo base_url(); ?>/assets/template/img/2.jpg" alt="Image">
+                    <img src="<?php echo base_url(); ?>/assets/template/img/volcan1.jpg" alt="Image">
                 </div>
             </div>
             <div class="col-lg-7 col-md-6">
