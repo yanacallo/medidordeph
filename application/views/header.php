@@ -122,8 +122,12 @@
                   </a> -->
                 </div>
               </div>
+              <a href="<?php echo site_url('reportes/index'); ?>" class="dropdown-item">
+                    <i class="far fa-clipboard"></i>&nbsp;&nbsp;Reporte&nbsp;&nbsp;
+                  </a>
 
-              <a href="<?php echo site_url(); ?>/reportes/index" id="reportes" class="nav-item nav-link"><i class="far fa-clipboard"></i>&nbsp;&nbsp;REPORTES&nbsp;&nbsp;</a>
+              
+
 
               <div class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="geolocalizacion">

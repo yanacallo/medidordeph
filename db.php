@@ -1,6 +1,6 @@
 <?php
 $servername="localhost";
-$username="root";
+$username="edison";
 $password="";
 //$dbname="map";
 $dbname="ci_google_maps_api";
