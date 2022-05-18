@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <title>Medicion de PH</title>
+  <meta name="viewport" content="initial-scale=1.0">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="Construction Company Website Template" name="keywords">
   <meta content="Construction Company Website Template" name="description">
@@ -100,7 +101,7 @@
     <div class="nav-bar">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-          <a href="#" class="navbar-brand"><b>MENU</b></a>
+          <a href="#" class="navbar-brand"><b>MENÚ</b></a>
           <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -125,22 +126,8 @@
 
               <a href="<?php echo site_url(); ?>/reportes/index" id="reportes" class="nav-item nav-link"><i class="far fa-clipboard"></i>&nbsp;&nbsp;REPORTES&nbsp;&nbsp;</a>
 
-              <div class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="geolocalizacion">
-                    <i class="fas fa-chart-area"></i>&nbsp;&nbsp;GEOLOCALIZACIÓN&nbsp;&nbsp;
-                  </a>
-                  <div class="dropdown-menu">
-                    <a href="<?php echo site_url('mapsapi/index'); ?>" class="dropdown-item">
-                      <i class="fas fa-object-group"></i>&nbsp;&nbsp;OBTENER LOCALIZACIÓN&nbsp;&nbsp;
-                    </a>
-                    <a href="<?php echo site_url('mapsapi/locations'); ?>" class="dropdown-item">
-                      <i class="fa fa-object-group"></i>&nbsp;&nbsp;LOCALIZACIONES&nbsp;&nbsp;
-                    </a>
-                    <a href="<?php echo site_url('mapsapi/tools'); ?>" class="dropdown-item">
-                      <i class="fa fa-object-group"></i>&nbsp;&nbsp;TOOLS&nbsp;&nbsp;
-                    </a>
-                  </div>
-                </div>
+              <a href="<?php echo site_url(); ?>/mapsapi/index" id="geolocalizacion" class="nav-item nav-link"><i class="fa fa-object-group"></i>&nbsp;&nbsp;LOCALIZACIÓN&nbsp;&nbsp;</a>
+
 
               <!-- <?php if ($this->session->userdata('Conectad0')) : ?>
                 <div class="nav-item dropdown">
@@ -186,7 +173,7 @@
       #loading-image {
         z-index: 99999 !important;
       }
-
+      
       .navbar-dark .navbar-brand {
         color: #191919 !important;
       }

@@ -6,7 +6,10 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <p>&copy;
-          <a target="_blank" href="https://www.utc.edu.ec/">DESARROLADO POR UTC
+          <a target="_blank" href="https://www.utc.edu.ec/">DESARROLADO POR:
+          <br>
+
+          UNIVERSIDAD TÉCNICA DE COTOPAXI - Todos los derechos reservados
             <br>
             2022
           </a>
