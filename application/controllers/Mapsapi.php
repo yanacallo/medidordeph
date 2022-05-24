@@ -11,8 +11,10 @@ class Mapsapi extends CI_Controller {
 	//Funcion para cargar la vista principal de Geolocalizacion que envia los registros de markadores de la BDD
 	public function index(){
 		$this->load->view('header');
+
 		$data['locations']=$this->Mapsapi_Model->getLocations();
 		$this->load->view('maps/index',$data);
+		
 		$this->load->view('footer');
 	}
 
