@@ -115,7 +115,7 @@
                   <i class="fas fa-chart-area"></i>&nbsp;&nbsp;MEDICIÓN&nbsp;&nbsp;
                 </a>
                 <div class="dropdown-menu">
-                  <a href="<?php echo site_url('lugares/gestionLugares'); ?>" class="dropdown-item">
+                  <a href="<?php echo site_url('MapsApi/gestionLugares'); ?>" class="dropdown-item">
                     <i class="fas fa-object-group"></i>&nbsp;&nbsp;Localidad&nbsp;&nbsp;
                   </a>
                   <!-- <a href="<?php echo site_url('terrenos/gestionTerrenos'); ?>" class="dropdown-item">
@@ -173,7 +173,7 @@
       #loading-image {
         z-index: 99999 !important;
       }
-      
+
       .navbar-dark .navbar-brand {
         color: #191919 !important;
       }
