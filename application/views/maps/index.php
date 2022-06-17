@@ -33,11 +33,12 @@
       <?php if (!empty($locations)) { ?>
         var markationsBDD = <?php echo json_encode($locations) ?>; //Obtener como json_encode (array) de los registros de la BDD
         //Funcion para mostrar el contenido de cada markador que retorna un Content HTML
-        //function infoMarker(titulo, descripcion, latitud, longitud, propietario, producto){
-        function infoMarker(titulo, descripcion, latitud, longitud, propietario, producto){
-          var info = '<div style="text-align: center; max-width: 300px;" tabindex="0">'+
-                        '<h3 style="background: #4F5DC8; border-radius: 5px; display: block; color: #fff; padding: 0.5rem;">'+titulo+'</h3>'+
-                        '<p style="font-size: 15px; display: block; padding: 0.5rem;">'+descripcion+'</p>'+
+        //function infoMarker(titulo, imagen, descripcion, latitud, longitud, propietario, producto){
+        function infoMarker(titulo, imagen, descripcion, latitud, longitud, propietario, producto){
+          var info = '<div style="text-align: center;" tabindex="0">'+
+                        '<h4 style="background: #4F5DC8; border-radius: 5px; display: block; color: #fff; padding: 0.2rem;">'+titulo+'</h4>'+
+                        '<img src='+imagen+' alt="imagen" width="100%" height="200px" style="border-radius: 10px;" onerror="this.parentNode.removeChild(this)">'+
+                        '<p style="font-size: 15px; display: block; padding-top: 1rem;">'+descripcion+'</p>'+
                         '<p style="display: block; margin: 0;">'+
                           '<b style="font-size: 13px;">Latitud:</b><span style="font-size: 13px; margin-left: 5px;">'+latitud+'</span>'+
                         '</p>'+
@@ -106,6 +107,7 @@
             return function() {
                 infoWindow.setContent(infoMarker(
                   markationsBDD[i]['title'],
+                  '<?php echo base_url(); ?>/assets/uploads/terrenos/'+markationsBDD[i]['imagen'],
                   markationsBDD[i]['description'],
                   markationsBDD[i]['lat'],
                   markationsBDD[i]['lng'],

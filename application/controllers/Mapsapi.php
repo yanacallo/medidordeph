@@ -24,7 +24,8 @@ class Mapsapi extends CI_Controller {
 			$terrenos->set_subject('Localidad');
 			$terrenos->set_table('locations'); //estableciendo la tabla de l BDD
 			$terrenos->set_theme('datatables'); //definiendo al aspeto grafico
-			$terrenos->columns('id', 'lat', 'lng', 'title', 'description', 'propietario', 'producto');
+			$terrenos->columns('id', 'lat', 'lng', 'title', 'description', 'propietario', 'producto', 'imagen');
+			$terrenos->set_field_upload('imagen','assets/uploads/terrenos/');//forma para subir un archivo
 			$terrenos->display_as('id', '#');
 			$terrenos->display_as('lat', 'Latitud');
 			$terrenos->display_as('lng', 'Longitud');
@@ -32,7 +33,8 @@ class Mapsapi extends CI_Controller {
 			$terrenos->display_as('description', 'Descripción');
 			$terrenos->display_as('propietario', 'Propietario');
 			$terrenos->display_as('producto', 'Producto');
-			$terrenos->fields('lat', 'lng', 'title', 'description', 'propietario', 'producto');
+			$terrenos->display_as('imagen', 'Imagen');
+			$terrenos->fields('lat', 'lng', 'title', 'description', 'propietario', 'producto', 'imagen');
 			$terrenos->set_language("spanish");
 			$terrenos->set_theme("flexigrid");
 
